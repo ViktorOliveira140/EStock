@@ -1,0 +1,49 @@
+/* Configuração básica para ocupar 100% da tela */
+html, body {
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-y: auto;
+}
+
+
+/* Conteúdo principal */
+.content {
+    flex: 1;
+}
+
+body{
+    background-color: #240046;
+}
+
+#btn-base{
+    background-color: #E0AAFF;
+}
+
+#btn-sbase{
+    background-color: #3C096C;
+    color: white;
+}
+
+.striped, th, td {
+    font-weight: normal;
+}
+.fullheight-filler {
+    height: 100vh;
+    visibility: hidden;
+}
+#main-container {
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
